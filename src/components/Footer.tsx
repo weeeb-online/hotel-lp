@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 
 export function Footer() {
   return (

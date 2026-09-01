@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { AboutHero } from "./components/AboutHero";
-import { AboutStory } from "./components/AboutStory";
-import { AboutValues } from "./components/AboutValues";
-import { AboutPeople } from "./components/AboutPeople";
-import { AboutClosing } from "./components/AboutClosing";
+import { AboutHero } from "./components/about_hero";
+import { AboutStory } from "./components/about_story";
+import { AboutValues } from "./components/about_values";
+import { AboutPeople } from "./components/about_people";
+import { AboutClosing } from "./components/about_closing";
 export const metadata: Metadata = {
   title: "Sobre nós | MelosHotel",
   description:

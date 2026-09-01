@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 import Link from "next/link";
 
 export function Header() {

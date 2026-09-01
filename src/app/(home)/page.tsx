@@ -1,13 +1,13 @@
-import { Hero } from "./components/Hero";
-import { Highlights } from "./components/Highlights";
-import { Spaces } from "./components/Spaces";
-import { Experience } from "./components/Experience";
-import { ServiceHours } from "./components/ServiceHours";
-import { Gallery } from "./components/Gallery";
-import { LocalExperiences } from "./components/LocalExperiences";
-import { Testimonials } from "./components/Testimonials";
-import { Location } from "./components/Location";
-import { FAQ } from "./components/FAQ";
+import { Hero } from "./components/hero";
+import { Highlights } from "./components/highlights";
+import { Spaces } from "./components/spaces";
+import { Experience } from "./components/experience";
+import { ServiceHours } from "./components/service_hours";
+import { Gallery } from "./components/gallery";
+import { LocalExperiences } from "./components/local_experiences";
+import { Testimonials } from "./components/testimonials";
+import { Location } from "./components/location";
+import { FAQ } from "./components/faq";
 
 export default function Home() {
   return (

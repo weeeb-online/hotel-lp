@@ -10,9 +10,9 @@ import {
 } from "lucide-react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 import { accommodations, getAccommodation } from "@/data/accommodations";
-import { RoomCarousel } from "./components/RoomCarousel";
+import { RoomCarousel } from "./components/room-carousel";
 import Link from "next/link";
 
 type Props = {

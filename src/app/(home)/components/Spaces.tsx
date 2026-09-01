@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
-import { Reveal } from "@/components/Reveal";
-import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { Reveal } from "@/components/reveal";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 
 const spaces = [
   {

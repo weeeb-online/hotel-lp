@@ -1,6 +1,6 @@
 import { Check } from "lucide-react";
-import { Reveal } from "@/components/Reveal";
-import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { Reveal } from "@/components/reveal";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 
 export function Experience() {
   return (

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { ArrowRight, Maximize2, Users } from "lucide-react";
-import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 import { accommodations } from "@/data/accommodations";
-import { RoomCarousel } from "./[slug]/components/RoomCarousel";
-import { AccommodationsHero } from "./components/AccommodationsHero";
+import { RoomCarousel } from "./[slug]/components/room-carousel";
+import { AccommodationsHero } from "./components/accommodations-hero";
 import Link from "next/link";
 
 export const metadata: Metadata = {

@@ -1,6 +1,6 @@
 import { ChevronDown } from "lucide-react";
-import { Reveal } from "@/components/Reveal";
-import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { Reveal } from "@/components/reveal";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 const qs = [
   [
     "Qual é o horário de check-in e check-out?",

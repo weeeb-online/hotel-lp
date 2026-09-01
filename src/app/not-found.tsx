@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowLeft, BedDouble, Compass } from "lucide-react";
-import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 
 export default function NotFound() {
   return (

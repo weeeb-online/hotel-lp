@@ -1,5 +1,5 @@
 import { Camera } from "lucide-react";
-import { Reveal } from "@/components/Reveal";
+import { Reveal } from "@/components/reveal";
 
 const photos = [
   {

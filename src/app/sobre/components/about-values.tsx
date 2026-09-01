@@ -1,5 +1,5 @@
 import { HandHeart, Sprout, SunMedium } from "lucide-react";
-import { Reveal } from "@/components/Reveal";
+import { Reveal } from "@/components/reveal";
 
 const values = [
   {
