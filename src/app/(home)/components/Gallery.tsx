@@ -1,18 +1,18 @@
-import { Camera } from "lucide-react";
+﻿import { Camera } from "lucide-react";
 import { Reveal } from "@/components/reveal";
 
 const photos = [
   {
     src: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/723652655.webp?k=b8cc0d247fbba345a5677ffcaab9471bc0df44f14d8038ad62f972bfcb390348&o=",
-    alt: "Suíte iluminada com acesso à piscina",
+    alt: "SuÃ­te iluminada com acesso Ã  piscina",
   },
   {
     src: "https://framerusercontent.com/images/kZJQV2l5CNnkQSLCMBSQNen4.webp?scale-down-to=1024",
-    alt: "Área de descanso integrada ao jardim",
+    alt: "Ãrea de descanso integrada ao jardim",
   },
   {
     src: "https://theasiacollective.com/wp-content/uploads/2017/11/Room3-1-of-24-e1511181466533.jpg",
-    alt: "Piscina cercada por vegetação tropical",
+    alt: "Piscina cercada por vegetaÃ§Ã£o tropical",
   },
 ];
 
@@ -25,7 +25,7 @@ export function Gallery() {
             <p className="mb-5 text-[10px] font-extrabold tracking-[.28em] text-[#587d6c]">
               UM OLHAR MAIS DE PERTO
             </p>
-            <h2 className="font-serif text-[clamp(50px,5.7vw,78px)] leading-[.88] tracking-[-.035em]">
+            <h2 className="font-heading text-[clamp(50px,5.7vw,78px)] leading-[.88] tracking-[-.035em]">
               Detalhes que convidam
               <br />
               <em>a ficar.</em>

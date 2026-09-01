@@ -1,4 +1,4 @@
-import { ArrowUpRight, MessageCircle } from "lucide-react";
+﻿import { ArrowUpRight, MessageCircle } from "lucide-react";
 
 type Props = {
   label?: string;
@@ -14,7 +14,7 @@ export function WhatsAppButton({
 }: Props) {
   return (
     <a
-      className={`inline-flex w-max items-center justify-center gap-2.5 rounded-[3px] px-5 py-3.5 text-xs font-bold transition hover:-translate-y-0.5 hover:brightness-105 ${light ? "bg-white text-[#18392f]" : "bg-[#e56d3d] text-white"}`}
+      className={`inline-flex w-max items-center justify-center gap-2.5 rounded-[3px] px-5 py-3.5 text-xs font-bold transition hover:-translate-y-0.5 hover:brightness-105 ${light ? "bg-white text-primary" : "bg-secondary text-white"}`}
       href={whatsapp}
       target="_blank"
       rel="noreferrer"

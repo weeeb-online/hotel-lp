@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -24,7 +24,7 @@ export function RoomCarousel({ images, name, priority = false }: Props) {
           <div key={image} className="relative h-full min-w-full">
             <Image
               src={image}
-              alt={`${name} — foto ${i + 1}`}
+              alt={`${name} â€” foto ${i + 1}`}
               fill
               priority={priority && i === 0}
               sizes="(max-width: 768px) 100vw, 55vw"
@@ -37,19 +37,19 @@ export function RoomCarousel({ images, name, priority = false }: Props) {
         <button
           onClick={() => move(-1)}
           aria-label="Foto anterior"
-          className="grid size-11 place-items-center bg-white text-[#18392f] transition hover:bg-[#f4f0e6]"
+          className="grid size-11 place-items-center bg-white text-primary transition hover:bg-[#f4f0e6]"
         >
           <ChevronLeft size={18} />
         </button>
         <button
           onClick={() => move(1)}
-          aria-label="Próxima foto"
-          className="grid size-11 place-items-center bg-white text-[#18392f] transition hover:bg-[#f4f0e6]"
+          aria-label="PrÃ³xima foto"
+          className="grid size-11 place-items-center bg-white text-primary transition hover:bg-[#f4f0e6]"
         >
           <ChevronRight size={18} />
         </button>
       </div>
-      <span className="absolute bottom-6 left-6 bg-[#18392f]/85 px-3 py-2 text-[10px] font-bold tracking-[.12em] text-white">
+      <span className="absolute bottom-6 left-6 bg-primary/85 px-3 py-2 text-[10px] font-bold tracking-[.12em] text-white">
         {String(index + 1).padStart(2, "0")} /{" "}
         {String(images.length).padStart(2, "0")}
       </span>

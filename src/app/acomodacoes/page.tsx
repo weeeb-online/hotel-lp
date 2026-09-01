@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { ArrowRight, Maximize2, Users } from "lucide-react";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { accommodations } from "@/data/accommodations";
@@ -7,8 +7,8 @@ import { AccommodationsHero } from "./components/accommodations-hero";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Acomodações | MelosHotel",
-  description: "Conheça todas as suítes e bangalôs do MelosHotel.",
+  title: "AcomodaÃ§Ãµes | MelosHotel",
+  description: "ConheÃ§a todas as suÃ­tes e bangalÃ´s do MelosHotel.",
 };
 
 export default function AccommodationsPage() {
@@ -18,9 +18,9 @@ export default function AccommodationsPage() {
       <section className="bg-[#f4f0e6] px-[clamp(24px,7vw,110px)] py-25">
         <div className="mx-auto mb-16 max-w-175 text-center">
           <p className="mb-5 text-[10px] font-extrabold tracking-[.28em] text-[#587d6c]">
-            TODAS AS ACOMODAÇÕES
+            TODAS AS ACOMODAÃ‡Ã•ES
           </p>
-          <h2 className="font-serif text-[clamp(48px,6vw,76px)] leading-[.88] text-[#18392f]">
+          <h2 className="font-heading text-[clamp(48px,6vw,76px)] leading-[.88] text-primary">
             Encontre o seu
             <br />
             <em>lugar preferido.</em>
@@ -42,19 +42,19 @@ export default function AccommodationsPage() {
               <div
                 className={`flex flex-col items-start justify-center px-[clamp(32px,6vw,90px)] py-16 ${index % 2 ? "md:order-1" : ""}`}
               >
-                <p className="mb-4 text-[9px] font-extrabold tracking-[.24em] text-[#e56d3d]">
+                <p className="mb-4 text-[9px] font-extrabold tracking-[.24em] text-secondary">
                   {room.eyebrow}
                 </p>
-                <h2 className="mb-5 font-serif text-[clamp(42px,5vw,64px)] leading-none text-[#18392f]">
+                <h2 className="mb-5 font-heading text-[clamp(42px,5vw,64px)] leading-none text-primary">
                   {room.name}
                 </h2>
                 <p className="max-w-120 text-[13px] leading-7 text-[#62766d]">
                   {room.summary}
                 </p>
-                <div className="my-7 flex flex-wrap gap-5 border-y border-[#18392f]/15 py-4 text-[11px] text-[#52675e]">
+                <div className="my-7 flex flex-wrap gap-5 border-y border-primary/15 py-4 text-[11px] text-[#52675e]">
                   <span className="flex items-center gap-2">
                     <Users size={15} />
-                    {room.guests} hóspedes
+                    {room.guests} hÃ³spedes
                   </span>
                   <span className="flex items-center gap-2">
                     <Maximize2 size={15} />
@@ -62,14 +62,14 @@ export default function AccommodationsPage() {
                   </span>
                   <strong>{room.bed}</strong>
                 </div>
-                <strong className="mb-6 text-xs text-[#18392f]">
+                <strong className="mb-6 text-xs text-primary">
                   {room.price}{" "}
                   <span className="font-normal text-[#6b7c74]">/ noite</span>
                 </strong>
                 <div className="flex flex-wrap gap-3">
                   <Link
                     href={`/acomodacoes/${room.slug}`}
-                    className="inline-flex items-center gap-2 border border-[#18392f] px-5 py-3.5 text-xs font-extrabold text-[#18392f]"
+                    className="inline-flex items-center gap-2 border border-primary px-5 py-3.5 text-xs font-extrabold text-primary"
                   >
                     Ver detalhes <ArrowRight size={15} />
                   </Link>

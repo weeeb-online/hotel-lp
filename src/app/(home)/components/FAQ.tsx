@@ -1,22 +1,22 @@
-import { ChevronDown } from "lucide-react";
+﻿import { ChevronDown } from "lucide-react";
 import { Reveal } from "@/components/reveal";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 const qs = [
   [
-    "Qual é o horário de check-in e check-out?",
-    "O check-in começa às 14h e o check-out pode ser feito até às 11h. Se precisar de outro horário, fale com nossa equipe.",
+    "Qual Ã© o horÃ¡rio de check-in e check-out?",
+    "O check-in comeÃ§a Ã s 14h e o check-out pode ser feito atÃ© Ã s 11h. Se precisar de outro horÃ¡rio, fale com nossa equipe.",
   ],
   [
-    "O café da manhã está incluso?",
-    "Sim. Servimos diariamente das 7h às 10h30, com opções frescas, frutas e preparos locais.",
+    "O cafÃ© da manhÃ£ estÃ¡ incluso?",
+    "Sim. Servimos diariamente das 7h Ã s 10h30, com opÃ§Ãµes frescas, frutas e preparos locais.",
   ],
   [
-    "O hotel aceita crianças e animais?",
-    "Recebemos famílias com carinho. Para animais de estimação, consulte previamente a disponibilidade e as condições.",
+    "O hotel aceita crianÃ§as e animais?",
+    "Recebemos famÃ­lias com carinho. Para animais de estimaÃ§Ã£o, consulte previamente a disponibilidade e as condiÃ§Ãµes.",
   ],
   [
     "Como confirmo uma reserva?",
-    "Envie suas datas pelo WhatsApp. Nossa equipe verifica a disponibilidade e orienta sobre a confirmação.",
+    "Envie suas datas pelo WhatsApp. Nossa equipe verifica a disponibilidade e orienta sobre a confirmaÃ§Ã£o.",
   ],
 ];
 export function FAQ() {
@@ -27,21 +27,21 @@ export function FAQ() {
           <p className="mb-5 text-[10px] font-extrabold tracking-[.28em] text-[#587d6c]">
             ANTES DE FAZER AS MALAS
           </p>
-          <h2 className="font-serif text-[clamp(50px,5.7vw,78px)] leading-[.88] tracking-[-.035em]">
-            Dúvidas
+          <h2 className="font-heading text-[clamp(50px,5.7vw,78px)] leading-[.88] tracking-[-.035em]">
+            DÃºvidas
             <br />
             <em>frequentes.</em>
           </h2>
-          <p className="mt-6 text-xs">Não encontrou sua resposta?</p>
+          <p className="mt-6 text-xs">NÃ£o encontrou sua resposta?</p>
           <WhatsAppButton label="Perguntar pelo WhatsApp" />
         </div>
         <div className="max-md:mt-5">
           {qs.map(([q, a], i) => (
             <details
               key={q}
-              className={`group border-t border-[#18392f]/15 py-5 ${i === qs.length - 1 ? "border-b" : ""}`}
+              className={`group border-t border-primary/15 py-5 ${i === qs.length - 1 ? "border-b" : ""}`}
             >
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-5 font-serif text-[22px] [&::-webkit-details-marker]:hidden">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-5 font-heading text-[22px] [&::-webkit-details-marker]:hidden">
                 {q}
                 <ChevronDown
                   size={18}

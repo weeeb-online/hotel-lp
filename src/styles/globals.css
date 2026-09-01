@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #18392f;
+  --color-secondary: #e56d3d;
+  --font-sans: var(--font-manrope);
+  --font-heading: var(--font-cormorant-garamond);
+}

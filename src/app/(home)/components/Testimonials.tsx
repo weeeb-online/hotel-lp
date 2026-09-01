@@ -1,14 +1,14 @@
-import { Quote, Star } from "lucide-react";
+﻿import { Quote, Star } from "lucide-react";
 import { Reveal } from "@/components/reveal";
 
 const reviews = [
   {
-    text: "A sensação é de estar longe de tudo, mas com cada detalhe cuidado. Voltamos para casa realmente descansados.",
+    text: "A sensaÃ§Ã£o Ã© de estar longe de tudo, mas com cada detalhe cuidado. Voltamos para casa realmente descansados.",
     name: "Marina & Caio",
-    origin: "São Paulo",
+    origin: "SÃ£o Paulo",
   },
   {
-    text: "O quarto, o café e principalmente a equipe fizeram a viagem ser ainda mais especial. Já queremos voltar.",
+    text: "O quarto, o cafÃ© e principalmente a equipe fizeram a viagem ser ainda mais especial. JÃ¡ queremos voltar.",
     name: "Ana Luiza",
     origin: "Belo Horizonte",
   },
@@ -21,12 +21,12 @@ export function Testimonials() {
         <div>
           <Quote size={34} strokeWidth={1.2} />
           <p className="mt-6 mb-5 text-[10px] font-extrabold tracking-[.28em]">
-            HISTÓRIAS DE QUEM JÁ VEIO
+            HISTÃ“RIAS DE QUEM JÃ VEIO
           </p>
-          <h2 className="font-serif text-[clamp(50px,5.7vw,78px)] leading-[.88] tracking-[-.035em]">
+          <h2 className="font-heading text-[clamp(50px,5.7vw,78px)] leading-[.88] tracking-[-.035em]">
             Dias leves.
             <br />
-            <em>Lembranças bonitas.</em>
+            <em>LembranÃ§as bonitas.</em>
           </h2>
         </div>
         <div className="grid grid-cols-2 gap-6 max-md:grid-cols-1">
@@ -40,8 +40,8 @@ export function Testimonials() {
                   <Star key={x} size={13} fill="currentColor" />
                 ))}
               </div>
-              <p className="my-5 font-serif text-2xl leading-[1.35]">
-                “{r.text}”
+              <p className="my-5 font-heading text-2xl leading-[1.35]">
+                â€œ{r.text}â€
               </p>
               <div className="flex flex-col gap-1">
                 <strong className="text-[11px]">{r.name}</strong>

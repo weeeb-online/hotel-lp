@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -12,10 +12,10 @@ export function Header() {
     <header className="absolute z-10 flex h-20 w-full items-center justify-between border-b border-white/25 px-[clamp(22px,5vw,76px)] text-white max-md:h-17">
       <Link
         href="/"
-        aria-label="MelosHotel, início"
+        aria-label="MelosHotel, inÃ­cio"
         className="flex flex-col items-center leading-none"
       >
-        <span className="font-serif text-[28px] tracking-[.16em]">MELOS</span>
+        <span className="font-heading text-[28px] tracking-[.16em]">MELOS</span>
         <small className="mt-1.5 ml-1 text-[8px] tracking-[.5em]">HOTEL</small>
       </Link>
       <button
@@ -27,19 +27,19 @@ export function Header() {
       </button>
       <nav
         onClick={() => setOpen(false)}
-        className={`${open ? "max-md:flex" : "max-md:hidden"} flex items-center gap-8 text-[13px] max-md:absolute max-md:top-17 max-md:right-0 max-md:left-0 max-md:flex-col max-md:items-stretch max-md:bg-[#18392f] max-md:p-6`}
+        className={`${open ? "max-md:flex" : "max-md:hidden"} flex items-center gap-8 text-[13px] max-md:absolute max-md:top-17 max-md:right-0 max-md:left-0 max-md:flex-col max-md:items-stretch max-md:bg-primary max-md:p-6`}
       >
         <Link href="/sobre" className="opacity-90">
           Sobre
         </Link>
         <Link href="/acomodacoes" className="opacity-90">
-          Acomodações
+          AcomodaÃ§Ãµes
         </Link>
         <Link href="/#experiencia" className="opacity-90">
-          Experiência
+          ExperiÃªncia
         </Link>
         <Link href="/#localizacao" className="opacity-90">
-          Localização
+          LocalizaÃ§Ã£o
         </Link>
         <WhatsAppButton label="Reservar agora" />
       </nav>

@@ -1,41 +1,41 @@
-import { HandHeart, Sprout, SunMedium } from "lucide-react";
+﻿import { HandHeart, Sprout, SunMedium } from "lucide-react";
 import { Reveal } from "@/components/reveal";
 
 const values = [
   {
     icon: HandHeart,
-    title: "Cuidado genuíno",
-    text: "Prestamos atenção ao que faz diferença para cada hóspede, sem roteiros prontos.",
+    title: "Cuidado genuÃ­no",
+    text: "Prestamos atenÃ§Ã£o ao que faz diferenÃ§a para cada hÃ³spede, sem roteiros prontos.",
   },
   {
     icon: Sprout,
     title: "Leveza consciente",
-    text: "Escolhas locais, menos desperdício e respeito pela natureza ao nosso redor.",
+    text: "Escolhas locais, menos desperdÃ­cio e respeito pela natureza ao nosso redor.",
   },
   {
     icon: SunMedium,
     title: "Beleza simples",
-    text: "Ambientes acolhedores, materiais naturais e tudo o que é essencial para descansar.",
+    text: "Ambientes acolhedores, materiais naturais e tudo o que Ã© essencial para descansar.",
   },
 ];
 
 export function AboutValues() {
   return (
-    <section className="bg-[#18392f] px-[clamp(24px,9vw,140px)] py-25 text-white max-md:py-20">
+    <section className="bg-primary px-[clamp(24px,9vw,140px)] py-25 text-white max-md:py-20">
       <Reveal>
         <div className="mb-14 flex items-end justify-between max-md:block">
           <div>
             <p className="mb-5 text-[10px] font-extrabold tracking-[.28em] text-[#9ab4a8]">
               O QUE NOS GUIA
             </p>
-            <h2 className="font-serif text-[clamp(52px,6vw,82px)] leading-[.88] tracking-[-.035em]">
+            <h2 className="font-heading text-[clamp(52px,6vw,82px)] leading-[.88] tracking-[-.035em]">
               Nossa forma de
               <br />
               <em>receber.</em>
             </h2>
           </div>
           <p className="max-w-85 text-[13px] leading-6 text-white/65 max-md:mt-7">
-            Mais do que serviços, cultivamos uma maneira atenta, leve e próxima
+            Mais do que serviÃ§os, cultivamos uma maneira atenta, leve e prÃ³xima
             de cuidar.
           </p>
         </div>
@@ -50,7 +50,7 @@ export function AboutValues() {
                 strokeWidth={1.3}
                 className="mb-8 text-[#e9946f]"
               />
-              <h3 className="mb-4 font-serif text-[30px]">{title}</h3>
+              <h3 className="mb-4 font-heading text-[30px]">{title}</h3>
               <p className="m-0 text-xs leading-6 text-white/65">{text}</p>
             </article>
           ))}
