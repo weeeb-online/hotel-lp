@@ -1,4 +1,0 @@
-import { Check } from "lucide-react";
-import { Reveal } from "./Reveal";
-import { WhatsAppButton } from "./WhatsAppButton";
-export function Experience(){return <section id="experiencia" className="experience"><div className="experience-image"/><Reveal className="experience-copy"><p className="eyebrow">MAIS QUE UMA ESTADIA</p><h2>Pequenos cuidados.<br/><em>Grandes memórias.</em></h2><p>Da chegada ao último café, nossa equipe cuida para que tudo flua no seu ritmo. Dicas locais, carinho nos detalhes e a liberdade de simplesmente aproveitar.</p><ul><li><Check aria-hidden="true" /> Recepção atenciosa e personalizada</li><li><Check aria-hidden="true" /> Dicas de passeios e experiências locais</li><li><Check aria-hidden="true" /> Wi-Fi rápido em todos os ambientes</li></ul><WhatsAppButton label="Planejar minha estadia" light/></Reveal></section>}

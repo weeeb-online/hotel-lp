@@ -1,7 +1,0 @@
-import { Car, MapPin, Navigation, Plane } from "lucide-react";
-import { Reveal } from "./Reveal";
-import { WhatsAppButton } from "./WhatsAppButton";
-
-export function Location() {
-  return <section id="localizacao" className="section location"><Reveal><div className="location-copy"><p className="eyebrow green">FÁCIL DE CHEGAR, DIFÍCIL DE IR EMBORA</p><h2>No coração da<br/><em>Praia do Encanto.</em></h2><p>Estamos em uma rua tranquila, próximos à praia, restaurantes e aos melhores passeios da região.</p><address><MapPin size={20} aria-hidden="true"/><span>Rua do Sossego, 128<br/><strong>Praia do Encanto — Brasil</strong></span></address><div className="distance-list"><span><Car aria-hidden="true"/>5 min do centro</span><span><Plane aria-hidden="true"/>45 min do aeroporto</span></div><div className="location-actions"><a className="route-button" href="https://www.google.com/maps/search/?api=1&query=Praia+do+Encanto+Brasil" target="_blank" rel="noreferrer"><Navigation size={16} aria-hidden="true"/>Abrir rota no Google Maps</a><WhatsAppButton label="Preciso de ajuda para chegar"/></div></div><div className="map-wrap"><iframe title="Mapa interativo da localização do MelosHotel" src="https://www.google.com/maps?q=Praia%20do%20Encanto%20Brasil&output=embed" loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen></iframe><span className="map-label"><MapPin size={14} fill="currentColor" aria-hidden="true"/> MelosHotel</span></div></Reveal></section>;
-}
