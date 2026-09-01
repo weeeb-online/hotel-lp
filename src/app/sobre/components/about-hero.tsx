@@ -6,7 +6,7 @@ export function AboutHero() {
       <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(11,43,34,.82),rgba(11,43,34,.1)),linear-gradient(0deg,rgba(11,43,34,.55),transparent_65%)]" />
       <div className="relative z-1 max-w-210">
         <p className="mb-5 text-[10px] font-extrabold tracking-[.28em]">
-          NOSSA HISTÃ“RIA
+          NOSSA HISTÓRIA
         </p>
         <h1 className="font-heading text-[clamp(68px,9vw,126px)] leading-[.76] tracking-[-.04em]">
           Um hotel com
@@ -15,7 +15,7 @@ export function AboutHero() {
         </h1>
         <div className="mt-12 flex items-center gap-3 text-xs font-bold">
           <ArrowDown size={16} />
-          ConheÃ§a o MelosHotel
+          Conheça o MelosHotel
         </div>
       </div>
     </section>

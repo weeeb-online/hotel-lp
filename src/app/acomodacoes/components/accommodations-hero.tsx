@@ -4,10 +4,10 @@
       <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(10,35,28,.82),rgba(10,35,28,.08)),linear-gradient(0deg,rgba(10,35,28,.55),transparent_70%)]" />
       <div className="relative z-1 max-w-225">
         <p className="mb-5 text-[10px] font-extrabold tracking-[.28em]">
-          ESCOLHA O SEU ESPAÃ‡O
+          ESCOLHA O SEU ESPAÇO
         </p>
         <h1 className="font-heading text-[clamp(66px,8vw,112px)] leading-[.78] tracking-[-.04em]">
-          AcomodaÃ§Ãµes para
+          Acomodações para
           <br />
           <em className="ml-[.4em] max-md:ml-0">cada jeito de viajar.</em>
         </h1>

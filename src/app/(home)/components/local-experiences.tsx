@@ -5,18 +5,18 @@ import { WhatsAppButton } from "@/components/whatsapp-button";
 const data = [
   {
     icon: Sailboat,
-    title: "Passeio ao pÃ´r do sol",
+    title: "Passeio ao pôr do sol",
     copy: "Uma tarde no mar com horizonte aberto e parada para mergulho.",
   },
   {
     icon: Bike,
-    title: "Caminhos da regiÃ£o",
+    title: "Caminhos da região",
     copy: "Roteiros leves de bicicleta entre praia, vila e natureza.",
   },
   {
     icon: Utensils,
     title: "Sabores locais",
-    copy: "Nossa seleÃ§Ã£o de restaurantes e pequenos produtores para conhecer.",
+    copy: "Nossa seleção de restaurantes e pequenos produtores para conhecer.",
   },
 ];
 

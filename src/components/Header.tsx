@@ -12,7 +12,7 @@ export function Header() {
     <header className="absolute z-10 flex h-20 w-full items-center justify-between border-b border-white/25 px-[clamp(22px,5vw,76px)] text-white max-md:h-17">
       <Link
         href="/"
-        aria-label="MelosHotel, inÃ­cio"
+        aria-label="MelosHotel, início"
         className="flex flex-col items-center leading-none"
       >
         <span className="font-heading text-[28px] tracking-[.16em]">MELOS</span>
@@ -33,13 +33,13 @@ export function Header() {
           Sobre
         </Link>
         <Link href="/acomodacoes" className="opacity-90">
-          AcomodaÃ§Ãµes
+          Acomodações
         </Link>
         <Link href="/#experiencia" className="opacity-90">
-          ExperiÃªncia
+          Experiência
         </Link>
         <Link href="/#localizacao" className="opacity-90">
-          LocalizaÃ§Ã£o
+          Localização
         </Link>
         <WhatsAppButton label="Reservar agora" />
       </nav>

@@ -5,31 +5,31 @@ import { WhatsAppButton } from "@/components/whatsapp-button";
 
 const spaces = [
   {
-    name: "SuÃ­te Jardim",
-    type: "ACOMODAÃ‡ÃƒO",
-    desc: "SilÃªncio, luz natural e uma varanda particular para o jardim.",
-    meta: "2 hÃ³spedes Â· Cama queen Â· 28 mÂ²",
+    name: "Suíte Jardim",
+    type: "ACOMODAÇÃO",
+    desc: "Silêncio, luz natural e uma varanda particular para o jardim.",
+    meta: "2 hóspedes · Cama queen · 28 m²",
     img: "https://static.thehoneycombers.com/wp-content/uploads/sites/4/2022/06/White-Goose-boutique-hotel-in-Berawa-Canggu-Bali-Indonesia-768x549.jpeg",
   },
   {
-    name: "SuÃ­te Piscina",
-    type: "ACOMODAÃ‡ÃƒO",
-    desc: "Conforto amplo com acesso direto Ã  piscina e muito frescor.",
-    meta: "2 hÃ³spedes Â· Cama king Â· 34 mÂ²",
+    name: "Suíte Piscina",
+    type: "ACOMODAÇÃO",
+    desc: "Conforto amplo com acesso direto à piscina e muito frescor.",
+    meta: "2 hóspedes · Cama king · 34 m²",
     img: "https://www.momondo.com.br/himg/61/3f/33/expedia_group-7219544-147504362-782688.jpg",
   },
   {
-    name: "Piscina & SolÃ¡rio",
+    name: "Piscina & Solário",
     type: "LAZER",
-    desc: "Um convite para alternar mergulhos, sol e sombra sem olhar o relÃ³gio.",
-    meta: "Toalhas Â· EspreguiÃ§adeiras Â· Bar",
+    desc: "Um convite para alternar mergulhos, sol e sombra sem olhar o relógio.",
+    meta: "Toalhas · Espreguiçadeiras · Bar",
     img: "https://images.trvl-media.com/lodging/111000000/110820000/110814100/110814001/a327b28b.jpg",
   },
   {
-    name: "CafÃ© & Lounge",
-    type: "CONVIVÃŠNCIA",
-    desc: "Ambiente arejado para cafÃ©s tranquilos, encontros e pequenas pausas.",
-    meta: "CafÃ© da manhÃ£ Â· Wi-Fi Â· Jardim",
+    name: "Café & Lounge",
+    type: "CONVIVÊNCIA",
+    desc: "Ambiente arejado para cafés tranquilos, encontros e pequenas pausas.",
+    meta: "Café da manhã · Wi-Fi · Jardim",
     img: "https://cdn.sanity.io/images/nxpteyfv/goguides/03ed763d390f57a4515189e6ed60e929f9a570cb-1400x933.jpg",
   },
 ];
@@ -44,11 +44,11 @@ export function Spaces() {
     >
       <Reveal>
         <p className="mb-5 text-[10px] font-extrabold tracking-[.28em] text-[#587d6c]">
-          CONHEÃ‡A CADA CANTO
+          CONHEÇA CADA CANTO
         </p>
         <div className="mb-12 flex items-end justify-between max-md:block">
           <h2 className="m-0 font-heading text-[clamp(52px,6vw,82px)] leading-[.85] tracking-[-.035em]">
-            Seu espaÃ§o para
+            Seu espaço para
             <br />
             <em>sentir-se bem.</em>
           </h2>

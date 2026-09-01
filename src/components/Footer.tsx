@@ -15,7 +15,7 @@ export function Footer() {
         <p className="my-3 text-xs leading-6 text-[#c0cec8]">
           Rua do Sossego, 128
           <br />
-          Praia do Encanto â€” Brasil
+          Praia do Encanto — Brasil
         </p>
         <a
           href="https://maps.google.com"
@@ -38,7 +38,7 @@ export function Footer() {
         <WhatsAppButton label="Chamar no WhatsApp" light />
       </div>
       <p className="col-span-full mt-6 border-t border-white/15 pt-6 text-[9px] text-[#c0cec8]">
-        Â© 2026 MelosHotel Â· Feito para dias leves.
+        © 2026 MelosHotel · Feito para dias leves.
       </p>
     </footer>
   );

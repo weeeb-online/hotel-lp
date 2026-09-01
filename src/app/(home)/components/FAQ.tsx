@@ -3,20 +3,20 @@ import { Reveal } from "@/components/reveal";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 const qs = [
   [
-    "Qual Ã© o horÃ¡rio de check-in e check-out?",
-    "O check-in comeÃ§a Ã s 14h e o check-out pode ser feito atÃ© Ã s 11h. Se precisar de outro horÃ¡rio, fale com nossa equipe.",
+    "Qual é o horário de check-in e check-out?",
+    "O check-in começa às 14h e o check-out pode ser feito até às 11h. Se precisar de outro horário, fale com nossa equipe.",
   ],
   [
-    "O cafÃ© da manhÃ£ estÃ¡ incluso?",
-    "Sim. Servimos diariamente das 7h Ã s 10h30, com opÃ§Ãµes frescas, frutas e preparos locais.",
+    "O café da manhã está incluso?",
+    "Sim. Servimos diariamente das 7h às 10h30, com opções frescas, frutas e preparos locais.",
   ],
   [
-    "O hotel aceita crianÃ§as e animais?",
-    "Recebemos famÃ­lias com carinho. Para animais de estimaÃ§Ã£o, consulte previamente a disponibilidade e as condiÃ§Ãµes.",
+    "O hotel aceita crianças e animais?",
+    "Recebemos famílias com carinho. Para animais de estimação, consulte previamente a disponibilidade e as condições.",
   ],
   [
     "Como confirmo uma reserva?",
-    "Envie suas datas pelo WhatsApp. Nossa equipe verifica a disponibilidade e orienta sobre a confirmaÃ§Ã£o.",
+    "Envie suas datas pelo WhatsApp. Nossa equipe verifica a disponibilidade e orienta sobre a confirmação.",
   ],
 ];
 export function FAQ() {
@@ -28,11 +28,11 @@ export function FAQ() {
             ANTES DE FAZER AS MALAS
           </p>
           <h2 className="font-heading text-[clamp(50px,5.7vw,78px)] leading-[.88] tracking-[-.035em]">
-            DÃºvidas
+            Dúvidas
             <br />
             <em>frequentes.</em>
           </h2>
-          <p className="mt-6 text-xs">NÃ£o encontrou sua resposta?</p>
+          <p className="mt-6 text-xs">Não encontrou sua resposta?</p>
           <WhatsAppButton label="Perguntar pelo WhatsApp" />
         </div>
         <div className="max-md:mt-5">

@@ -11,23 +11,23 @@ export function Location() {
       <Reveal className="grid grid-cols-[.9fr_1.2fr] items-center gap-[8vw] max-md:grid-cols-1">
         <div>
           <p className="mb-5 text-[10px] font-extrabold tracking-[.28em] text-[#587d6c]">
-            FÃCIL DE CHEGAR, DIFÃCIL DE IR EMBORA
+            FÁCIL DE CHEGAR, DIFÍCIL DE IR EMBORA
           </p>
           <h2 className="font-heading text-[clamp(50px,5.7vw,78px)] leading-[.88] tracking-[-.035em]">
-            No coraÃ§Ã£o da
+            No coração da
             <br />
             <em>Praia do Encanto.</em>
           </h2>
           <p className="my-7 max-w-120 text-[13px] leading-6 text-[#65776f]">
-            Estamos em uma rua tranquila, prÃ³ximos Ã  praia, restaurantes e aos
-            melhores passeios da regiÃ£o.
+            Estamos em uma rua tranquila, próximos à praia, restaurantes e aos
+            melhores passeios da região.
           </p>
           <address className="flex gap-3 border-y border-primary/15 py-5 text-xs leading-5 not-italic">
             <MapPin size={20} className="shrink-0 text-secondary" />
             <span>
               Rua do Sossego, 128
               <br />
-              <strong>Praia do Encanto â€” Brasil</strong>
+              <strong>Praia do Encanto — Brasil</strong>
             </span>
           </address>
           <div className="my-5 flex gap-6 max-md:flex-col max-md:gap-2">
@@ -62,7 +62,7 @@ export function Location() {
         </div>
         <div className="relative h-135 bg-[#d5d9d1] max-md:mt-8 max-md:h-100">
           <iframe
-            title="Mapa interativo da localizaÃ§Ã£o do MelosHotel"
+            title="Mapa interativo da localização do MelosHotel"
             src="https://www.google.com/maps?q=Praia%20do%20Encanto%20Brasil&output=embed"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

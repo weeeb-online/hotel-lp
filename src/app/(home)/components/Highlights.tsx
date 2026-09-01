@@ -4,13 +4,13 @@ import { Reveal } from "@/components/reveal";
 const items = [
   {
     icon: MapPin,
-    title: "LocalizaÃ§Ã£o privilegiada",
+    title: "Localização privilegiada",
     copy: "A poucos passos da praia e perto de tudo.",
   },
   {
     icon: Coffee,
-    title: "CafÃ© da manhÃ£ incluso",
-    copy: "Sabores frescos para comeÃ§ar bem o dia.",
+    title: "Café da manhã incluso",
+    copy: "Sabores frescos para começar bem o dia.",
   },
   {
     icon: HeartHandshake,

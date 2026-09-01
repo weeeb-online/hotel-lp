@@ -24,7 +24,7 @@ export function RoomCarousel({ images, name, priority = false }: Props) {
           <div key={image} className="relative h-full min-w-full">
             <Image
               src={image}
-              alt={`${name} â€” foto ${i + 1}`}
+              alt={`${name} — foto ${i + 1}`}
               fill
               priority={priority && i === 0}
               sizes="(max-width: 768px) 100vw, 55vw"
@@ -43,7 +43,7 @@ export function RoomCarousel({ images, name, priority = false }: Props) {
         </button>
         <button
           onClick={() => move(1)}
-          aria-label="PrÃ³xima foto"
+          aria-label="Próxima foto"
           className="grid size-11 place-items-center bg-white text-primary transition hover:bg-[#f4f0e6]"
         >
           <ChevronRight size={18} />

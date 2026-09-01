@@ -7,8 +7,8 @@ import { AccommodationsHero } from "./components/accommodations-hero";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "AcomodaÃ§Ãµes | MelosHotel",
-  description: "ConheÃ§a todas as suÃ­tes e bangalÃ´s do MelosHotel.",
+  title: "Acomodações | MelosHotel",
+  description: "Conheça todas as suítes e bangalôs do MelosHotel.",
 };
 
 export default function AccommodationsPage() {
@@ -18,7 +18,7 @@ export default function AccommodationsPage() {
       <section className="bg-[#f4f0e6] px-[clamp(24px,7vw,110px)] py-25">
         <div className="mx-auto mb-16 max-w-175 text-center">
           <p className="mb-5 text-[10px] font-extrabold tracking-[.28em] text-[#587d6c]">
-            TODAS AS ACOMODAÃ‡Ã•ES
+            TODAS AS ACOMODAÇÕES
           </p>
           <h2 className="font-heading text-[clamp(48px,6vw,76px)] leading-[.88] text-primary">
             Encontre o seu
@@ -54,7 +54,7 @@ export default function AccommodationsPage() {
                 <div className="my-7 flex flex-wrap gap-5 border-y border-primary/15 py-4 text-[11px] text-[#52675e]">
                   <span className="flex items-center gap-2">
                     <Users size={15} />
-                    {room.guests} hÃ³spedes
+                    {room.guests} hóspedes
                   </span>
                   <span className="flex items-center gap-2">
                     <Maximize2 size={15} />

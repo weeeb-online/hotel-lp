@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const room = getAccommodation((await params).slug);
   return room
     ? { title: `${room.name} | MelosHotel`, description: room.summary }
-    : { title: "AcomodaÃ§Ã£o | MelosHotel" };
+    : { title: "Acomodação | MelosHotel" };
 }
 
 const amenityIcons = [Snowflake, Wifi, Tv, Coffee, Bath, Maximize2];
@@ -48,7 +48,7 @@ export default async function AccommodationDetail({ params }: Props) {
             className="mb-10 inline-flex items-center gap-2 text-xs font-bold"
           >
             <ArrowLeft size={15} />
-            Todas as acomodaÃ§Ãµes
+            Todas as acomodações
           </Link>
           <p className="mb-4 text-[10px] font-extrabold tracking-[.28em]">
             {room.eyebrow}
@@ -68,7 +68,7 @@ export default async function AccommodationDetail({ params }: Props) {
         <div className="mx-auto grid max-w-310 grid-cols-[1.15fr_.85fr] gap-[10vw] max-md:grid-cols-1">
           <div>
             <p className="mb-5 text-[10px] font-extrabold tracking-[.28em] text-[#587d6c]">
-              SOBRE ESTE ESPAÃ‡O
+              SOBRE ESTE ESPAÇO
             </p>
             <h2 className="mb-8 font-heading text-[clamp(46px,5vw,68px)] leading-[.9] text-primary">
               Um convite para
@@ -81,7 +81,7 @@ export default async function AccommodationDetail({ params }: Props) {
             <div className="mt-10 flex flex-wrap gap-7 border-y border-primary/15 py-6 text-xs">
               <span className="flex items-center gap-2">
                 <Users size={17} />
-                {room.guests} hÃ³spedes
+                {room.guests} hóspedes
               </span>
               <span className="flex items-center gap-2">
                 <Maximize2 size={17} />
@@ -95,14 +95,14 @@ export default async function AccommodationDetail({ params }: Props) {
               RESERVE DIRETO CONOSCO
             </p>
             <h3 className="my-4 font-heading text-[36px] leading-tight text-primary">
-              Sua prÃ³xima pausa comeÃ§a aqui.
+              Sua próxima pausa começa aqui.
             </h3>
             <p className="mb-7 text-xs leading-6 text-[#64766f]">
-              Consulte datas, valores e condiÃ§Ãµes especiais com nossa equipe.
+              Consulte datas, valores e condições especiais com nossa equipe.
             </p>
             <WhatsAppButton label="Consultar disponibilidade" />
             <small className="mt-5 block text-[10px] text-[#78877f]">
-              Resposta diÃ¡ria, das 8h Ã s 22h.
+              Resposta diária, das 8h às 22h.
             </small>
           </aside>
         </div>
@@ -121,7 +121,7 @@ export default async function AccommodationDetail({ params }: Props) {
               </h2>
             </div>
             <p className="max-w-85 text-xs leading-6 text-[#65776f] max-md:mt-6">
-              Navegue pelas imagens e imagine seus prÃ³ximos dias por aqui.
+              Navegue pelas imagens e imagine seus próximos dias por aqui.
             </p>
           </div>
           <div className="h-[min(70vw,700px)] min-h-115">
@@ -138,7 +138,7 @@ export default async function AccommodationDetail({ params }: Props) {
             <h2 className="font-heading text-[clamp(48px,6vw,74px)] leading-[.88]">
               Comodidades
               <br />
-              <em>incluÃ­das.</em>
+              <em>incluídas.</em>
             </h2>
             <ul className="mt-10 grid grid-cols-2 gap-px bg-white/15">
               {room.amenities.map((item, i) => {
@@ -157,7 +157,7 @@ export default async function AccommodationDetail({ params }: Props) {
           </div>
           <div className="self-end border-t border-white/20 pt-8">
             <p className="mb-6 text-[10px] font-extrabold tracking-[.2em] text-[#9db6ab]">
-              DESTAQUES DESTA ACOMODAÃ‡ÃƒO
+              DESTAQUES DESTA ACOMODAÇÃO
             </p>
             {room.highlights.map((item, i) => (
               <p
@@ -176,10 +176,10 @@ export default async function AccommodationDetail({ params }: Props) {
           PRONTO PARA RESERVAR?
         </p>
         <h2 className="mx-auto mb-8 max-w-210 font-heading text-[clamp(54px,7vw,90px)] leading-[.84]">
-          A {room.name} espera por vocÃª.
+          A {room.name} espera por você.
         </h2>
         <div className="flex justify-center">
-          <WhatsAppButton label="Quero reservar esta acomodaÃ§Ã£o" light />
+          <WhatsAppButton label="Quero reservar esta acomodação" light />
         </div>
       </section>
     </main>

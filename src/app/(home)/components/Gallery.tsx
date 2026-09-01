@@ -4,15 +4,15 @@ import { Reveal } from "@/components/reveal";
 const photos = [
   {
     src: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/723652655.webp?k=b8cc0d247fbba345a5677ffcaab9471bc0df44f14d8038ad62f972bfcb390348&o=",
-    alt: "SuÃ­te iluminada com acesso Ã  piscina",
+    alt: "Suíte iluminada com acesso à piscina",
   },
   {
     src: "https://framerusercontent.com/images/kZJQV2l5CNnkQSLCMBSQNen4.webp?scale-down-to=1024",
-    alt: "Ãrea de descanso integrada ao jardim",
+    alt: "Área de descanso integrada ao jardim",
   },
   {
     src: "https://theasiacollective.com/wp-content/uploads/2017/11/Room3-1-of-24-e1511181466533.jpg",
-    alt: "Piscina cercada por vegetaÃ§Ã£o tropical",
+    alt: "Piscina cercada por vegetação tropical",
   },
 ];
 

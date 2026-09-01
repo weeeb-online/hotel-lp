@@ -2,9 +2,9 @@
 import { WhatsAppButton } from "@/components/whatsapp-button";
 
 const hours = [
-  ["RecepÃ§Ã£o", "24 horas"],
-  ["WhatsApp & Reservas", "Todos os dias Â· 8h Ã s 22h"],
-  ["CafÃ© da manhÃ£", "7h Ã s 10h30"],
+  ["Recepção", "24 horas"],
+  ["WhatsApp & Reservas", "Todos os dias · 8h às 22h"],
+  ["Café da manhã", "7h às 10h30"],
 ];
 
 export function ServiceHours() {
@@ -21,10 +21,10 @@ export function ServiceHours() {
           <h2 className="font-heading text-[clamp(52px,6vw,82px)] leading-[.85] tracking-[-.035em]">
             Conte com a gente,
             <br />
-            <em>do inÃ­cio ao fim.</em>
+            <em>do início ao fim.</em>
           </h2>
           <p className="mt-8 max-w-120 text-[13px] leading-6 text-[#62766d]">
-            Nossa equipe estÃ¡ pronta para tirar dÃºvidas, ajudar com reservas e
+            Nossa equipe está pronta para tirar dúvidas, ajudar com reservas e
             cuidar dos detalhes da sua chegada.
           </p>
         </div>
@@ -39,7 +39,7 @@ export function ServiceHours() {
             </p>
           ))}
           <div className="mt-7">
-            <WhatsAppButton label="Tirar uma dÃºvida agora" />
+            <WhatsAppButton label="Tirar uma dúvida agora" />
           </div>
         </div>
       </Reveal>

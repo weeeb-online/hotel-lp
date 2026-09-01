@@ -7,7 +7,7 @@ export function AboutStory() {
       <Reveal className="grid grid-cols-[.8fr_1.2fr] gap-[10vw] max-md:grid-cols-1">
         <div>
           <p className="mb-5 text-[10px] font-extrabold tracking-[.28em] text-[#587d6c]">
-            COMO TUDO COMEÃ‡OU
+            COMO TUDO COMEÇOU
           </p>
           <h2 className="font-heading text-[clamp(52px,6vw,82px)] leading-[.88] tracking-[-.035em]">
             Feito para
@@ -24,13 +24,13 @@ export function AboutStory() {
           </p>
           <div className="mt-9 grid grid-cols-2 gap-8 border-t border-primary/15 pt-8 text-[13px] leading-7 text-[#61746b] max-md:grid-cols-1">
             <p>
-              Transformamos uma casa prÃ³xima ao mar em um refÃºgio de poucos
-              quartos, preservando o jardim, a luz natural e a relaÃ§Ã£o tranquila
-              com a vizinhanÃ§a.
+              Transformamos uma casa próxima ao mar em um refúgio de poucos
+              quartos, preservando o jardim, a luz natural e a relação tranquila
+              com a vizinhança.
             </p>
             <p>
-              Desde entÃ£o, recebemos cada hÃ³spede como recebemos amigos: com
-              atenÃ§Ã£o, boas conversas e liberdade para viver os dias no prÃ³prio
+              Desde então, recebemos cada hóspede como recebemos amigos: com
+              atenção, boas conversas e liberdade para viver os dias no próprio
               ritmo.
             </p>
           </div>

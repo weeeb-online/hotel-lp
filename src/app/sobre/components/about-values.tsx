@@ -4,18 +4,18 @@ import { Reveal } from "@/components/reveal";
 const values = [
   {
     icon: HandHeart,
-    title: "Cuidado genuÃ­no",
-    text: "Prestamos atenÃ§Ã£o ao que faz diferenÃ§a para cada hÃ³spede, sem roteiros prontos.",
+    title: "Cuidado genuíno",
+    text: "Prestamos atenção ao que faz diferença para cada hóspede, sem roteiros prontos.",
   },
   {
     icon: Sprout,
     title: "Leveza consciente",
-    text: "Escolhas locais, menos desperdÃ­cio e respeito pela natureza ao nosso redor.",
+    text: "Escolhas locais, menos desperdício e respeito pela natureza ao nosso redor.",
   },
   {
     icon: SunMedium,
     title: "Beleza simples",
-    text: "Ambientes acolhedores, materiais naturais e tudo o que Ã© essencial para descansar.",
+    text: "Ambientes acolhedores, materiais naturais e tudo o que é essencial para descansar.",
   },
 ];
 
@@ -35,7 +35,7 @@ export function AboutValues() {
             </h2>
           </div>
           <p className="max-w-85 text-[13px] leading-6 text-white/65 max-md:mt-7">
-            Mais do que serviÃ§os, cultivamos uma maneira atenta, leve e prÃ³xima
+            Mais do que serviços, cultivamos uma maneira atenta, leve e próxima
             de cuidar.
           </p>
         </div>

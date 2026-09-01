@@ -16,18 +16,18 @@ export function Experience() {
         <h2 className="mb-7 font-heading text-[clamp(52px,5.6vw,78px)] leading-[.87] tracking-[-.035em]">
           Pequenos cuidados.
           <br />
-          <em>Grandes memÃ³rias.</em>
+          <em>Grandes memórias.</em>
         </h2>
         <p className="max-w-130 text-[13px] leading-6 text-[#cfdbd6]">
-          Da chegada ao Ãºltimo cafÃ©, nossa equipe cuida para que tudo flua no
+          Da chegada ao último café, nossa equipe cuida para que tudo flua no
           seu ritmo. Dicas locais, carinho nos detalhes e a liberdade de
           simplesmente aproveitar.
         </p>
         <ul className="my-6 list-none border-t border-white/20 py-4 text-xs leading-8">
           {[
-            "RecepÃ§Ã£o atenciosa e personalizada",
-            "Dicas de passeios e experiÃªncias locais",
-            "Wi-Fi rÃ¡pido em todos os ambientes",
+            "Recepção atenciosa e personalizada",
+            "Dicas de passeios e experiências locais",
+            "Wi-Fi rápido em todos os ambientes",
           ].map((x) => (
             <li key={x} className="flex items-center gap-2">
               <Check size={14} className="text-[#93b4a5]" />

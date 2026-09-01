@@ -21,9 +21,9 @@ export function AboutPeople() {
           <em>perto.</em>
         </h2>
         <p className="my-8 max-w-125 text-[13px] leading-7 text-[#61746b]">
-          Somos uma equipe pequena e apaixonada pela regiÃ£o. Conhecemos os
+          Somos uma equipe pequena e apaixonada pela região. Conhecemos os
           melhores caminhos, sabores escondidos e praias especiais. Conte com a
-          gente para tornar sua estadia Ãºnica.
+          gente para tornar sua estadia única.
         </p>
         <WhatsAppButton label="Conversar com nossa equipe" />
       </Reveal>
