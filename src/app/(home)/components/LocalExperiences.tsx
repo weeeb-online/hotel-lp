@@ -1,6 +1,6 @@
 import { Bike, Sailboat, Utensils } from "lucide-react";
-import { Reveal } from "./Reveal";
-import { WhatsAppButton } from "./WhatsAppButton";
+import { Reveal } from "@/components/Reveal";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 const data = [
   {

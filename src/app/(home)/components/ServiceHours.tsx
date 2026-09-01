@@ -1,5 +1,5 @@
-import { Reveal } from "./Reveal";
-import { WhatsAppButton } from "./WhatsAppButton";
+import { Reveal } from "@/components/Reveal";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 const hours = [
   ["Recepção", "24 horas"],

@@ -1,5 +1,5 @@
 import { ArrowDown, Circle } from "lucide-react";
-import { WhatsAppButton } from "./WhatsAppButton";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 export function Hero() {
   return (
