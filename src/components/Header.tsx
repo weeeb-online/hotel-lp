@@ -1,10 +1,13 @@
 "use client";
+
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import Link from "next/link";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import Link from "next/link";
+
 export function Header() {
   const [open, setOpen] = useState(false);
+
   return (
     <header className="absolute z-10 flex h-20 w-full items-center justify-between border-b border-white/25 px-[clamp(22px,5vw,76px)] text-white max-md:h-17">
       <Link
@@ -29,7 +32,7 @@ export function Header() {
         <Link href="/sobre" className="opacity-90">
           Sobre
         </Link>
-        <Link href="/#acomodacoes" className="opacity-90">
+        <Link href="/acomodacoes" className="opacity-90">
           Acomodações
         </Link>
         <Link href="/#experiencia" className="opacity-90">
