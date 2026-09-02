@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { AboutHero } from "./components/about-hero";
 import { AboutStory } from "./components/about-story";
 import { AboutPeople } from "./components/about-people";
-import { AboutClosing } from "./components/about-closing";
+// import { AboutClosing } from "./components/about-closing";
 
 export const metadata: Metadata = {
   title: "Sobre nós | MelosHotel",
@@ -16,7 +16,7 @@ export default function Sobre() {
       <AboutHero />
       <AboutStory />
       <AboutPeople />
-      <AboutClosing />
+      {/* <AboutClosing /> */}
     </main>
   );
 }

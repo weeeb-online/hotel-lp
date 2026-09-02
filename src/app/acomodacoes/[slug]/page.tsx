@@ -1,5 +1,4 @@
 ﻿import {
-  ArrowLeft,
   Bath,
   Coffee,
   Maximize2,
@@ -13,7 +12,6 @@ import { notFound } from "next/navigation";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { accommodations, getAccommodation } from "@/data/accommodations";
 import { RoomCarousel } from "./components/room-carousel";
-import Link from "next/link";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -43,13 +41,6 @@ export default async function AccommodationDetail({ params }: Props) {
       >
         <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(10,35,28,.75),rgba(10,35,28,.08)_70%)]" />
         <div className="relative z-1 w-full">
-          <Link
-            href="/acomodacoes"
-            className="mb-10 inline-flex items-center gap-2 text-xs font-bold"
-          >
-            <ArrowLeft size={15} />
-            Todas as acomodações
-          </Link>
           <p className="mb-4 text-[10px] font-extrabold tracking-[.28em]">
             {room.eyebrow}
           </p>
