@@ -29,17 +29,14 @@ export function Header() {
         onClick={() => setOpen(false)}
         className={`${open ? "max-md:flex" : "max-md:hidden"} flex items-center gap-8 text-[13px] max-md:absolute max-md:top-17 max-md:right-0 max-md:left-0 max-md:flex-col max-md:items-stretch max-md:bg-primary max-md:p-6`}
       >
-        <Link href="/sobre" className="opacity-90">
-          Sobre
-        </Link>
         <Link href="/acomodacoes" className="opacity-90">
           Acomodações
         </Link>
-        <Link href="/#experiencia" className="opacity-90">
-          Experiência
-        </Link>
         <Link href="/#localizacao" className="opacity-90">
           Localização
+        </Link>
+        <Link href="/sobre" className="opacity-90">
+          Sobre
         </Link>
         <WhatsAppButton label="Reservar agora" />
       </nav>

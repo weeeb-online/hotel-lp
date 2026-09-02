@@ -4,7 +4,6 @@ import { Spaces } from "./components/spaces";
 import { Experience } from "./components/experience";
 import { ServiceHours } from "./components/service-hours";
 import { Gallery } from "./components/gallery";
-import { LocalExperiences } from "./components/local-experiences";
 import { Testimonials } from "./components/testimonials";
 import { Location } from "./components/location";
 import { FAQ } from "./components/faq";
@@ -17,7 +16,6 @@ export default function Home() {
       <Spaces />
       <Gallery />
       <Experience />
-      <LocalExperiences />
       <Testimonials />
       <Location />
       <ServiceHours />

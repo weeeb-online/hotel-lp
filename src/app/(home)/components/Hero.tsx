@@ -31,7 +31,7 @@ export function Hero() {
           </a>
         </div>
       </div>
-      <div className="absolute right-0 bottom-0 flex w-85 flex-col gap-1 bg-[#f4f0e6] px-8 py-5 text-primary max-md:w-4/5">
+      <div className="absolute right-3 bottom-3 flex w-85 flex-col gap-1 bg-[#f4f0e6] px-8 py-5 text-primary max-md:w-4/5">
         <span className="flex items-center gap-1.5 text-[10px] text-[#56856f]">
           <Circle size={7} fill="currentColor" /> Atendimento online
         </span>
