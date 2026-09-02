@@ -1,6 +1,6 @@
 import { Hero } from "./components/hero";
 import { Highlights } from "./components/highlights";
-import { Spaces } from "./components/spaces";
+// import { Spaces } from "./components/spaces";
 import { Experience } from "./components/experience";
 import { ServiceHours } from "./components/service-hours";
 import { Gallery } from "./components/gallery";
@@ -13,7 +13,7 @@ export default function Home() {
     <main>
       <Hero />
       <Highlights />
-      <Spaces />
+      {/* <Spaces /> */}
       <Gallery />
       <Experience />
       <Testimonials />

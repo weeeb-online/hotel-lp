@@ -8,7 +8,7 @@ export function Experience() {
       id="experiencia"
       className="grid min-h-160 grid-cols-2 bg-primary text-white max-md:grid-cols-1"
     >
-      <div className="min-h-95 bg-[url('https://images.trvl-media.com/lodging/10000000/9230000/9227300/9227252/7cc8fffd.jpg?impolicy=resizecrop&ra=fill&rh=575&rw=575')] bg-cover bg-center" />
+      <div className="min-h-95 bg-[url('/images/photos/recepcao-2.png')] bg-cover bg-center" />
       <Reveal className="self-center px-[clamp(34px,7vw,110px)] py-25 max-md:px-6 max-md:py-18">
         <p className="mb-5 text-[10px] font-extrabold tracking-[.28em]">
           MAIS QUE UMA ESTADIA

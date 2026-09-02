@@ -21,14 +21,26 @@ export function RoomCarousel({ images, name, priority = false }: Props) {
         style={{ transform: `translateX(-${index * 100}%)` }}
       >
         {images.map((image, i) => (
-          <div key={image} className="relative h-full min-w-full">
+          <div
+            key={image}
+            className="relative h-full min-w-full overflow-hidden bg-[#d8d4ca]"
+          >
+            <Image
+              src={image}
+              alt=""
+              fill
+              aria-hidden="true"
+              sizes="(max-width: 768px) 100vw, 55vw"
+              className="scale-110 object-cover blur-xl"
+            />
+            <div className="absolute inset-0 bg-black/20" />
             <Image
               src={image}
               alt={`${name} — foto ${i + 1}`}
               fill
               priority={priority && i === 0}
               sizes="(max-width: 768px) 100vw, 55vw"
-              className="object-cover"
+              className="object-contain"
             />
           </div>
         ))}

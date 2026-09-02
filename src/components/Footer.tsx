@@ -1,12 +1,18 @@
 ﻿import { ArrowUpRight } from "lucide-react";
 import { WhatsAppButton } from "@/components/whatsapp-button";
+import Image from "next/image";
 
 export function Footer() {
   return (
     <footer className="grid grid-cols-[1.2fr_1fr_1fr] gap-14 bg-[#102d26] px-[clamp(24px,9vw,140px)] pt-17 pb-7 text-[#dce4e0] max-md:grid-cols-1 max-md:gap-9">
-      <div className="flex flex-col items-start leading-none">
-        <span className="font-heading text-[44px] tracking-[.16em]">MELOS</span>
-        <small className="mt-2 ml-1 text-[8px] tracking-[.5em]">HOTEL</small>
+      <div className="flex items-start">
+        <Image
+          src="/images/logo.png"
+          alt="Melos Hotel"
+          width={1650}
+          height={945}
+          className="h-auto w-56 object-contain"
+        />
       </div>
       <div>
         <small className="text-[9px] tracking-[.2em] text-[#8da49a]">

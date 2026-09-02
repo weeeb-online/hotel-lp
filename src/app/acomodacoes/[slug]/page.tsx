@@ -38,7 +38,7 @@ export default async function AccommodationDetail({ params }: Props) {
   return (
     <main>
       <section
-        className="relative flex min-h-140 items-end bg-cover bg-center px-[clamp(24px,9vw,140px)] pb-16 pt-32 text-white"
+        className="relative flex h-[min(760px,100vh)] min-h-160 items-end bg-cover bg-center px-[clamp(24px,9vw,140px)] pb-16 pt-32 text-white"
         style={{ backgroundImage: `url('${room.images[0]}')` }}
       >
         <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(10,35,28,.75),rgba(10,35,28,.08)_70%)]" />

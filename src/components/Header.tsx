@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -13,10 +14,16 @@ export function Header() {
       <Link
         href="/"
         aria-label="MelosHotel, início"
-        className="flex flex-col items-center leading-none"
+        className="flex items-center"
       >
-        <span className="font-heading text-[28px] tracking-[.16em]">MELOS</span>
-        <small className="mt-1.5 ml-1 text-[8px] tracking-[.5em]">HOTEL</small>
+        <Image
+          src="/images/logo.png"
+          alt="Melos Hotel"
+          width={1650}
+          height={945}
+          priority
+          className="h-16 w-auto object-contain max-md:h-14"
+        />
       </Link>
       <button
         onClick={() => setOpen(!open)}
@@ -29,11 +36,14 @@ export function Header() {
         onClick={() => setOpen(false)}
         className={`${open ? "max-md:flex" : "max-md:hidden"} flex items-center gap-8 text-[13px] max-md:absolute max-md:top-17 max-md:right-0 max-md:left-0 max-md:flex-col max-md:items-stretch max-md:bg-primary max-md:p-6`}
       >
-        <Link href="/acomodacoes" className="opacity-90">
-          Acomodações
+        <Link href="/" className="opacity-90">
+          Início
         </Link>
         <Link href="/#localizacao" className="opacity-90">
           Localização
+        </Link>
+        <Link href="/acomodacoes" className="opacity-90">
+          Acomodações
         </Link>
         <Link href="/sobre" className="opacity-90">
           Sobre
